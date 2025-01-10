@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research' #📚
       subtitle: 'Accuracy improvement / Data harmonization of SM and VOD Retreival'
       text: |-
         I am studying two topics.
