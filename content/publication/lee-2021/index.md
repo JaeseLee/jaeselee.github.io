@@ -1,0 +1,42 @@
+---
+title: Detection of Forest Fire Damage from Sentinel-1 SAR Data through the Synergistic
+  Use of Principal Component Analysis and K-means Clustering
+authors:
+- admin
+- Woohyeok Kim
+- Jungho Im
+- Chunguen Kwon
+- Sungyong Kim
+date: '2021-01-01'
+publishDate: '2025-01-10T08:15:03.784236Z'
+publication_types:
+- article-journal
+publication: '*Korean Journal of Remote Sensing*'
+doi: 10.7780/kjrs.2021.37.5.3.4
+abstract: Forest fire poses a significant threat to the environment and society, affecting
+  carbon cycle and surface energy balance, and resulting in socioeconomic losses.
+  Widely used multi-spectral satellite image-based approaches for burned area detection
+  have a problem in that they do not work under cloudy conditions. Therefore, in this
+  study, Sentinel-1 Synthetic Aperture Radar (SAR) data from Europe Space Agency,
+  which can be collected in all weather conditions, were used to identify forest fire
+  damaged area based on a series of processes including Principal Component Analysis
+  (PCA) and K-means clustering. Four forest fire cases, which occurred in Gangneung˙Donghae
+  and Goseong˙Sokcho in Gangwon-do of South Korea and two areas in North Korea on
+  April 4, 2019, were examined. The estimated burned areas were evaluated using fire
+  reference data provided by the National Institute of Forest Science (NIFOS) for
+  two forest fire cases in South Korea, and differenced normalized burn ratio (dNBR)
+  for all four cases. The average accuracy using the NIFOS reference data was 86%
+  for the Gangneung˙Donghae and Goseong˙Sokcho fires. Evaluation using dNBR showed
+  an average accuracy of 84% for all four forest fire cases. It was also confirmed
+  that the stronger the burned intensity, the higher detection the accuracy, and vice
+  versa. Given the advantage of SAR remote sensing, the proposed statistical processing
+  and K-means clustering-based approach can be used to quickly identify forest fire
+  damaged area across the Korean Peninsula, where a cloud cover rate is high and small-scale
+  forest fires frequently occur.
+tags:
+- DNBR
+- Forest fire damaged area
+- K-means clustering
+- PCA
+- SAR
+---

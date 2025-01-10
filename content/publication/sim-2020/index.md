@@ -1,0 +1,52 @@
+---
+title: Wildfire Severity Mapping Using Sentinel Satellite Data Based on Machine Learning
+  Approaches
+authors:
+- Seongmun Sim
+- Woohyeok Kim
+- admin
+- Yoojin Kang
+- Jungho Im
+- Chunguen Kwon
+- Sungyong Kim
+date: '2020-01-01'
+publishDate: '2025-01-10T08:15:03.791876Z'
+publication_types:
+- article-journal
+publication: '*Korean Journal of Remote Sensing*'
+abstract: In South Korea with forest as a major land cover class (over 60% of the
+  country), many wildfires occur every year. Wildfires weaken the shear strength of
+  the soil, forming a layer of soil that is vulnerable to landslides. It is important
+  to identify the severity of a wildfire as well as the burned area to sustainably
+  manage the forest. Although satellite remote sensing has been widely used to map
+  wildfire severity, it is often difficult to determine the severity using only the
+  temporal change of satellite-derived indices such as Normalized Difference Vegetation
+  Index (NDVI) and Normalized Burn Ratio (NBR). In this study, we proposed an approach
+  for determining wildfire severity based on machine learning through the synergistic
+  use of Sentinel-1A Synthetic Aperture Radar-C data and Sentinel-2A Multi Spectral
+  Instrument data. Three wildfire cases–Samcheok in May 2017, Gangneung˙Donghae in
+  April 2019, and Goseong˙Sokcho in April 2019–were used for developing wildfire severity
+  mapping models with three machine learning algorithms (i.e., Random Forest, Logistic
+  Regression, and Support Vector Machine). The results showed that the random forest
+  model yielded the best performance, resulting in an overall accuracy of 82.3%. The
+  cross-site validation to examine the spatiotemporal transferability of the machine
+  learning models showed that the models were highly sensitive to temporal differences
+  between the training and validation sites, especially in the early growing season.
+  This implies that a more robust model with high spatiotemporal transferability can
+  be developed when more wildfire cases with different seasons and areas are added
+  in the future.
+tags:
+- and technology
+- combined ms
+- department of urban and
+- environmental engineering
+- machine learning
+- national institute of science
+- phd student
+- sentinel-1
+- sentinel-2
+- ulsan
+- wildfire
+- wildfire-damaged area
+- 울산과학기술원 도시환경공학과 석박통합과정생
+---
