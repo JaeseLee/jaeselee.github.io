@@ -183,4 +183,4 @@ languages:
 
 ## About Me
 
-I am studying remote sensing (RS), especially for passive microwave (PMW) measurements with artificial intelligence (AI) techniques for land monitoring. My research interests include PMW data-based retrieval of soil moisture (SM) and vegetation optical depth (VOD), and their environmental application studies.
+I am studying remote sensing (RS), with a focus on passive microwave (PMW) measurements driven by radiative transfer modeling (RTM) and artificial intelligence (AI). My research interests include PMW-based retrieval of soil moisture (SM) and vegetation optical depth (VOD), as well as their environmental applications.
