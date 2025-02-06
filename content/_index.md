@@ -39,7 +39,7 @@ sections:
         
         (1) SM retrieval accuracy improvement using AI incorporating radiative transfer modeling (Lee et al., 2024b).
         
-        (2) Harmonized SM data creation using an AI model (Lee et al., 2024a).
+        (2) Harmonized data creation using an AI and RTM (Lee et al., 2024a).
 
         I am currently trying to extend my experience to L-band VOD.
         
