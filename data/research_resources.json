@@ -1,0 +1,86 @@
+{
+  "projects": [
+    {
+      "title": "HDCA",
+      "category": "Soil moisture under dense vegetation",
+      "description": "Joint retrieval of soil moisture, vegetation optical depth, and time-varying effective scattering albedo from SMAP, accounting for first-order vegetation scattering.",
+      "image": "hdca.webp",
+      "alt": "HDCA and other SMAP retrievals compared with in situ soil moisture at Millbrook, Massachusetts, and Tambopata.",
+      "paper": "/publication/lee-2027-dense-vegetation/",
+      "credit": "Lee et al. (2027), Fig. 7 \u00b7 Remote Sensing of Environment",
+      "doi": "10.1016/j.rse.2026.115787"
+    },
+    {
+      "title": "ASCAT2SMAP-V2",
+      "category": "Satellite data harmonization",
+      "description": "Reconstructing L-band-like soil moisture and vegetation optical depth from C-band ASCAT observations.",
+      "image": "ascat2smap-v2.webp",
+      "alt": "ASCAT2SMAP-V2 workflow linking ASCAT soil moisture, simulated brightness temperatures, and joint soil moisture and VOD retrieval.",
+      "paper": "/publication/lee-2026-ascat2smap-v2/",
+      "credit": "Lee et al. (2026), Fig. 2 \u00b7 IEEE JSTARS",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1109/JSTARS.2026.3722611"
+    },
+    {
+      "title": "ASTRA",
+      "category": "AMSR2 to SMAP",
+      "description": "Using image-to-image translation to produce SMAP-consistent soil moisture, with radiative transfer modeling for interpretation.",
+      "image": "astra.webp",
+      "alt": "ASTRA workflow showing Swin-Unet translation and radiative transfer model inversion.",
+      "paper": "/publication/lee-2026-astra/",
+      "credit": "Lee et al. (2026), Fig. 2 \u00b7 IJAEOG",
+      "license": "CC BY-NC 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "doi": "10.1016/j.jag.2026.105297"
+    },
+    {
+      "title": "ESCAPE",
+      "category": "Physics-informed retrieval",
+      "description": "Combining an ensemble of self-calibrated autoencoders with scattering models to estimate soil moisture and surface roughness from polarimetric SAR.",
+      "image": "escape.webp",
+      "alt": "ESCAPE autoencoder architecture with reconstruction and physics losses for soil moisture and surface roughness estimation.",
+      "paper": "/publication/lee-2026-escape/",
+      "credit": "Lee et al. (2026), Fig. 2 \u00b7 IJAEOG",
+      "license": "CC BY-NC-ND 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "doi": "10.1016/j.jag.2026.105206"
+    }
+  ],
+  "datasets": [
+    {
+      "title": "HDCA",
+      "tag": "Soil moisture, VOD + scattering",
+      "description": "Daily global 36 km retrievals from SMAP L-band observations, accounting for time-varying vegetation scattering. Includes soil moisture, vegetation optical depth, and effective scattering albedo for 2015\u20132025.",
+      "doi": "10.5281/zenodo.24359287",
+      "paper": "/publication/lee-2027-dense-vegetation/",
+      "format": "Annual NetCDF files",
+      "portal": "https://hydroai.net/data#hdca"
+    },
+    {
+      "title": "ASCAT2SMAP-V2",
+      "tag": "Soil moisture + VOD",
+      "description": "L-band-like soil moisture and vegetation optical depth derived from ASCAT observations, including A2S-DCA and A2S-NNP retrievals.",
+      "note": "The reconstructed VOD represents a SMAP-like vegetation signal; it is not an independently validated long-term VOD record.",
+      "doi": "10.5281/zenodo.21850883",
+      "paper": "/publication/lee-2026-ascat2smap-v2/",
+      "format": "NetCDF"
+    },
+    {
+      "title": "ASTRA",
+      "tag": "Global daily soil moisture",
+      "description": "Daily 36 km soil moisture on the SMAP EASE-Grid 2.0 grid, covering July 2012\u2013December 2023. Includes median scattering albedo and surface roughness layers.",
+      "doi": "10.5281/zenodo.18932359",
+      "paper": "/publication/lee-2026-astra/",
+      "format": "Annual NetCDF files"
+    },
+    {
+      "title": "SMAP-NN",
+      "tag": "Neural-network retrieval",
+      "description": "Soil moisture and retrieved surface roughness and scattering albedo parameters from the neural-network-based SMAP retrieval study.",
+      "doi": "10.5281/zenodo.13309164",
+      "paper": "/publication/lee-2024-b/",
+      "format": "Research dataset"
+    }
+  ]
+}
