@@ -14,4 +14,5 @@ volume: "333"
 article_number: "115136"
 doi: "10.1016/j.rse.2025.115136"
 first_published: "2025-11-12"
+corresponding_authors: ["Im, J."]
 ---

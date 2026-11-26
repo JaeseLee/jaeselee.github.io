@@ -18,11 +18,14 @@
     {{- if isset $.Params "author_notes" -}}
       {{- with (index $.Params.author_notes $index) -}}
         {{- if eq . "Equal contribution" -}}
-          <sup title="Co-first author (equal contribution)" aria-label="Co-first author">†</sup>
+          <sup title="Co-first author (equal contribution)" aria-label="Co-first author">*</sup>
         {{- else -}}
           <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{ . }}"></i>
         {{- end -}}
       {{- end -}}
+    {{- end -}}
+    {{- if in ($.Params.corresponding_authors | default slice) (index ($.Param $taxonomy) $index) -}}
+      <sup title="Corresponding author" aria-label="Corresponding author">†</sup>
     {{- end -}}
   {{- end -}}
 {{- end -}}

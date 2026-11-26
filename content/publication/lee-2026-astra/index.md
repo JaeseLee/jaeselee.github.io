@@ -23,6 +23,7 @@ volume: "149"
 article_number: "105297"
 doi: "10.1016/j.jag.2026.105297"
 first_published: "2026-04-23"
+corresponding_authors: ["Im, J."]
 ---
 
 

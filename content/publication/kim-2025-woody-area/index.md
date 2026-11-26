@@ -25,4 +25,5 @@ issue: "1"
 article_number: "10"
 doi: "10.3390/rs18010010"
 first_published: "2025-12-19"
+corresponding_authors: ["Im, J."]
 ---
