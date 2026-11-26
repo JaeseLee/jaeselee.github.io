@@ -11,6 +11,9 @@ main:
   - name: Publications
     url: /publication/
     weight: 30
+  - name: On-working
+    url: /on-working/
+    weight: 35
   - name: Experience
     url: /experience/
     weight: 40

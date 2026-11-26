@@ -44,7 +44,7 @@ sections:
     id: papers
     content:
       title: Recent Publications
-      text: 'See [all publications](/publication/) and [manuscripts under review or revision](/manuscripts/).'
+      text: 'See [all publications](/publication/) and [ongoing research and manuscripts](/on-working/).'
       count: 6
       filters:
         folders:
