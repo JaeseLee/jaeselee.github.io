@@ -6,7 +6,7 @@ layout: plain
 
 Ongoing research and manuscripts under review or revision. Manuscript statuses below follow my November 2026 CV.
 
-## Research in progress
+## In progress {#research-in-progress}
 
 ### Amazon drought and its effects on photosynthesis
 
@@ -16,7 +16,9 @@ Investigating Amazon drought and its effects on photosynthesis using spaceborne 
 
 Investigating how human radio emissions may influence satellite observations and the drought signals inferred from them.
 
-## Manuscripts under review
+---
+
+## Under review {#manuscripts-under-review}
 
 ### Root-Zone Soil Moisture Estimation From SMAP Observations and Precipitation Using a Fourier Neural Operator
 
@@ -30,7 +32,9 @@ Kajiyama, K., Lee, J., Lee, E., Kim, H., Choi, H.-L., Kim, H., & Kim, S. J.
 
 *IEEE Geoscience and Remote Sensing Letters* · Under review
 
-## Manuscripts in revision
+---
+
+## In revision {#manuscripts-in-revision}
 
 ### Resolving multiscale drought information improves subseasonal prediction of integrated drought conditions
 
