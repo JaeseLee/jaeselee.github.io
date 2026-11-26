@@ -14,4 +14,13 @@ publication_types:
   - article-journal
 publication: "*Remote Sensing of Environment*"
 featured: false
+doi: 10.1016/j.rse.2026.115787
+url_dataset: https://doi.org/10.5281/zenodo.24359287
 ---
+
+
+## Research data
+
+Daily global HDCA soil moisture, vegetation optical depth, and effective scattering albedo are available as annual NetCDF files for 2015–2025.
+
+[Download data on Zenodo](https://doi.org/10.5281/zenodo.24359287) · [Explore the interactive data portal](https://hydroai.net/data#hdca).

@@ -39,6 +39,15 @@
   ],
   "datasets": [
     {
+      "title": "HDCA",
+      "tag": "Soil moisture, VOD + scattering",
+      "description": "Daily global 36 km retrievals from SMAP L-band observations, accounting for time-varying vegetation scattering. Includes soil moisture, vegetation optical depth, and effective scattering albedo for 2015\u20132025.",
+      "doi": "10.5281/zenodo.24359287",
+      "paper": "/publication/lee-2027-dense-vegetation/",
+      "format": "Annual NetCDF files",
+      "portal": "https://hydroai.net/data#hdca"
+    },
+    {
       "title": "ASCAT2SMAP-V2",
       "tag": "Soil moisture + VOD",
       "description": "L-band-like soil moisture and vegetation optical depth derived from ASCAT observations, including A2S-DCA and A2S-NNP retrievals.",
