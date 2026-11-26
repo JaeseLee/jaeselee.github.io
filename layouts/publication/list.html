@@ -4,10 +4,21 @@
   {{ .Content }}
   <ol style="list-style: decimal outside; padding-inline-start: 2rem; overflow-wrap: anywhere">
     {{ $papers := sort .Pages "Params.first_published" "desc" }}
+    {{ $leadPapers := slice }}
+    {{ range $papers }}
+      {{ $paper := . }}
+      {{ range $index, $author := .Params.authors }}
+        {{ if eq $author "admin" }}
+          {{ if or (eq $index 0) (and (lt $index (len ($paper.Params.author_notes | default slice))) (eq (index $paper.Params.author_notes $index) "Equal contribution")) }}
+            {{ $leadPapers = $leadPapers | append $paper }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
     {{ range $papers }}
       {{ $year := .Date.Format "2006" }}
-      {{ $sameYear := where $papers "Date.Year" .Date.Year }}
-      {{ if gt (len $sameYear) 1 }}
+      {{ $sameYear := where $leadPapers "Date.Year" .Date.Year }}
+      {{ if and (in $sameYear .) (gt (len $sameYear) 1) }}
         {{ $earlier := where $sameYear "Params.first_published" "lt" .Params.first_published }}
         {{ $year = printf "%s%c" $year (add 97 (len $earlier)) }}
       {{ end }}
