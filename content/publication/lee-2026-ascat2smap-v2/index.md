@@ -15,6 +15,7 @@ url_dataset: https://doi.org/10.5281/zenodo.21850883
 volume: "19"
 pages: "29719–29733"
 doi: "10.1109/JSTARS.2026.3722611"
+first_published: "2026-08-10"
 ---
 
 

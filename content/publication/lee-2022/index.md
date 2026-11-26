@@ -48,4 +48,5 @@ links:
   url: https://doi.org/10.1016/j.jhydrol.2022.127749
 volume: "609"
 article_number: "127749"
+first_published: "2022-03-22"
 ---

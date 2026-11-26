@@ -16,4 +16,5 @@ featured: false
 doi: "10.1109/TGRS.2026.3746053"
 volume: "64"
 article_number: "4420313"
+first_published: "2026-10-26"
 ---

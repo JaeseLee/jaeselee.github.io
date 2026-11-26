@@ -3,8 +3,15 @@
   <h1 class="text-4xl font-bold mb-8">{{ .Title }}</h1>
   {{ .Content }}
   <ol style="list-style: decimal outside; padding-inline-start: 2rem; overflow-wrap: anywhere">
-    {{ range .Pages.ByDate.Reverse }}
-      <li>{{ partial "views/citation.html" (dict "item" .) }}</li>
+    {{ $papers := sort .Pages "Params.first_published" "desc" }}
+    {{ range $papers }}
+      {{ $year := .Date.Format "2006" }}
+      {{ $sameYear := where $papers "Date.Year" .Date.Year }}
+      {{ if gt (len $sameYear) 1 }}
+        {{ $earlier := where $sameYear "Params.first_published" "lt" .Params.first_published }}
+        {{ $year = printf "%s%c" $year (add 97 (len $earlier)) }}
+      {{ end }}
+      <li>{{ partial "views/citation.html" (dict "item" . "citationYear" $year) }}</li>
     {{ end }}
   </ol>
 </section>

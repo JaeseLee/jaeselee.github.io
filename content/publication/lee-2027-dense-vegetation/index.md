@@ -18,6 +18,7 @@ doi: 10.1016/j.rse.2026.115787
 url_dataset: https://doi.org/10.5281/zenodo.24359287
 volume: "349"
 article_number: "115787"
+first_published: "2026-11-18"
 ---
 
 

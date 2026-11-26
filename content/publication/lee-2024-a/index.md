@@ -46,4 +46,5 @@ tags:
 - image-to-image translation
 volume: "17"
 pages: "14862–14873"
+first_published: "2024-07-30"
 ---
