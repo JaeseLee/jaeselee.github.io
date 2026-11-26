@@ -38,6 +38,8 @@ sections:
         I welcome collaborations on microwave remote sensing, soil moisture, vegetation dynamics, and physics-informed learning. [Get in touch](mailto:jaeselee@gist.ac.kr).
     design:
       columns: '1'
+  - block: research-resources
+    id: highlights
   - block: collection
     id: papers
     content:

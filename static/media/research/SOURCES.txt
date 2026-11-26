@@ -1,0 +1,17 @@
+ASCAT2SMAP-V2
+Lee et al. (2026), Fig. 2 · IEEE JSTARS
+https://doi.org/10.1109/JSTARS.2026.3722611
+CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Figure content retained; surrounding page text removed. WebP conversion for web display.
+
+ASTRA
+Lee et al. (2026), Fig. 2 · IJAEOG
+https://doi.org/10.1016/j.jag.2026.105297
+CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/
+Figure content retained; surrounding page text removed. WebP conversion for web display.
+
+ESCAPE
+Lee et al. (2026), Fig. 2 · IJAEOG
+https://doi.org/10.1016/j.jag.2026.105206
+CC BY-NC-ND 4.0 https://creativecommons.org/licenses/by-nc-nd/4.0/
+Figure content retained; surrounding page text removed. WebP conversion for web display.

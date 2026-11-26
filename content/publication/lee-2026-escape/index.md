@@ -21,3 +21,10 @@ author_notes:
   - ""
   - ""
 ---
+
+
+## Method overview
+
+![ESCAPE autoencoder architecture with reconstruction and physics losses for soil moisture and surface roughness estimation.](/media/research/escape.webp)
+
+Lee et al. (2026), Fig. 2 · IJAEOG. [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). [View original paper](https://doi.org/10.1016/j.jag.2026.105206).

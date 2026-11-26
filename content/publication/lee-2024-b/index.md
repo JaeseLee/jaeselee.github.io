@@ -39,4 +39,12 @@ abstract: The L-band (1.4 GHz) brightness temperature (TB) is interpreted by the
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/10741325/
+url_dataset: https://doi.org/10.5281/zenodo.13309164
 ---
+
+
+## Research data
+
+Soil moisture and retrieved surface roughness and scattering albedo parameters from the neural-network-based SMAP retrieval study.
+
+[Download data and view documentation on Zenodo](https://doi.org/10.5281/zenodo.13309164).

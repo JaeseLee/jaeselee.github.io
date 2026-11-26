@@ -18,4 +18,19 @@ author_notes:
   - ""
   - ""
   - ""
+url_dataset: https://doi.org/10.5281/zenodo.18932359
 ---
+
+
+## Research data
+
+Daily 36 km soil moisture on the SMAP EASE-Grid 2.0 grid, covering July 2012–December 2023. Includes median scattering albedo and surface roughness layers.
+
+[Download data and view documentation on Zenodo](https://doi.org/10.5281/zenodo.18932359).
+
+
+## Method overview
+
+![ASTRA workflow showing Swin-Unet translation and radiative transfer model inversion.](/media/research/astra.webp)
+
+Lee et al. (2026), Fig. 2 · IJAEOG. [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). [View original paper](https://doi.org/10.1016/j.jag.2026.105297).
