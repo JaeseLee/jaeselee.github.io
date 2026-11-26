@@ -1,9 +1,9 @@
 ---
 title: "B-Mamba: Burn severity mapping from large-scale Landsat imagery using a Mamba-based Siamese network"
 authors:
-  - "Rana, S."
+  - "Rana, S. M. S."
   - "Sung, T."
-  - "Tobias, R."
+  - "Tobias, R. R."
   - "Im, J."
   - "Kang, Y."
   - "admin"
@@ -14,5 +14,6 @@ publication_types:
 publication: "*IEEE Transactions on Geoscience and Remote Sensing*"
 featured: false
 doi: "10.1109/TGRS.2026.3746053"
-advance_online: "true"
+volume: "64"
+article_number: "4420313"
 ---
