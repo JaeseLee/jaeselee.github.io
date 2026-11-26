@@ -30,7 +30,7 @@ education:
     date_start: 2019-03-01
     date_end: 2025-08-31
     summary: |
-      Research on satellite soil moisture retrieval using radiative transfer modeling and artificial intelligence, supervised by Prof. Jungho Im.
+      Research on satellite soil moisture retrieval using radiative transfer modeling and artificial intelligence, supervised by Prof. Jungho Im {{< advisor-links name="Prof. Jungho Im" homepage="https://irisunist.wixsite.com/irislab/professor" scholar="https://scholar.google.com/citations?user=KceOhnwAAAAJ&hl=ko&oi=ao" >}}
   - area: B.A. in Geography
     institution: Kyungpook National University
     date_start: 2016-03-01
@@ -41,7 +41,8 @@ work:
     company_url: https://www.gist.ac.kr/
     date_start: 2025-09-01
     date_end: ''
-    summary: InnoCORE program · Advised by Prof. Hyunglok Kim
+    summary: >-
+      InnoCORE program · Advised by Prof. Hyunglok Kim {{< advisor-links name="Prof. Hyunglok Kim" homepage="https://hydroai.net/people" scholar="https://scholar.google.com/citations?user=ZJx_f8gAAAAJ&hl=en" >}}
 languages:
   - name: Korean
     percent: 100

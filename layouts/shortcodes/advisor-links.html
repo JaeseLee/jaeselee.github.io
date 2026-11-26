@@ -1,0 +1,10 @@
+{{- $name := .Get "name" -}}
+<span style="display:inline-flex; gap:.4em; align-items:center; vertical-align:middle">
+  <a href="{{ .Get "homepage" }}" aria-label="{{ $name }} homepage" title="{{ $name }} homepage">
+    {{ partial "functions/get_icon" (dict "name" "globe-alt" "attributes" `style="height:1em;width:1em"`) }}
+  </a>
+  <a href="{{ .Get "scholar" }}" aria-label="{{ $name }} on Google Scholar" title="{{ $name }} on Google Scholar">
+    {{ partial "functions/get_icon" (dict "name" "academicons/google-scholar" "attributes" `style="height:1em;width:1em"`) }}
+  </a>
+</span>
+{{- "" -}}
