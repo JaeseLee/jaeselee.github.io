@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "HDCA",
-      "category": "Physics-informed retrieval",
+      "category": "Analytically constrained retrieval",
       "image": "hdca.webp",
       "alt": "HDCA and other SMAP retrievals compared with in situ soil moisture at Millbrook, Massachusetts, and Tambopata.",
       "paper": "/publication/lee-2027-dense-vegetation/",
@@ -81,7 +81,7 @@
     },
     {
       "title": "ESCAPE",
-      "category": "Physics-informed retrieval",
+      "category": "Physics-informed AI for estimation",
       "image": "escape.webp",
       "alt": "ESCAPE autoencoder architecture with reconstruction and physics losses for soil moisture and surface roughness estimation.",
       "paper": "/publication/lee-2026-escape/",
