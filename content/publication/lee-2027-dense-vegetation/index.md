@@ -24,3 +24,10 @@ url_dataset: https://doi.org/10.5281/zenodo.24359287
 Daily global HDCA soil moisture, vegetation optical depth, and effective scattering albedo are available as annual NetCDF files for 2015–2025.
 
 [Download data on Zenodo](https://doi.org/10.5281/zenodo.24359287) · [Explore the interactive data portal](https://hydroai.net/data#hdca).
+
+
+## Retrieval performance
+
+![HDCA and other SMAP retrievals compared with in situ soil moisture at three forest sites.](/media/research/hdca.webp)
+
+Lee et al. (2027), Fig. 7. [Source article](https://doi.org/10.1016/j.rse.2026.115787).

@@ -15,3 +15,8 @@ Lee et al. (2026), Fig. 2 · IJAEOG
 https://doi.org/10.1016/j.jag.2026.105206
 CC BY-NC-ND 4.0 https://creativecommons.org/licenses/by-nc-nd/4.0/
 Figure content retained; surrounding page text removed. WebP conversion for web display.
+
+HDCA
+Lee et al. (2027), Fig. 7 · Remote Sensing of Environment 349, 115787
+https://doi.org/10.1016/j.rse.2026.115787
+Extracted from supplied author PDF; figure and caption retained.

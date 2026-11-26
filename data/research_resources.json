@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "title": "HDCA",
+      "category": "Soil moisture under dense vegetation",
+      "description": "Joint retrieval of soil moisture, vegetation optical depth, and time-varying effective scattering albedo from SMAP, accounting for first-order vegetation scattering.",
+      "image": "hdca.webp",
+      "alt": "HDCA and other SMAP retrievals compared with in situ soil moisture at Millbrook, Massachusetts, and Tambopata.",
+      "paper": "/publication/lee-2027-dense-vegetation/",
+      "credit": "Lee et al. (2027), Fig. 7 \u00b7 Remote Sensing of Environment",
+      "doi": "10.1016/j.rse.2026.115787"
+    },
+    {
       "title": "ASCAT2SMAP-V2",
       "category": "Satellite data harmonization",
       "description": "Reconstructing L-band-like soil moisture and vegetation optical depth from C-band ASCAT observations.",
