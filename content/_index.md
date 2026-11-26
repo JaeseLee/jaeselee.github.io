@@ -10,8 +10,8 @@ sections:
       username: admin
       text: ""
       button:
-        text: Download CV (Word)
-        url: uploads/CV_JaeseLee_2026.docx
+        text: Download CV (PDF)
+        url: uploads/CV_JaeseLee_2026.pdf
     design:
       css_class: dark
       background:

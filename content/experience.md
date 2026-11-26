@@ -30,7 +30,7 @@ sections:
 
         **Peer review:** IEEE Transactions on Geoscience and Remote Sensing; IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing; GIScience & Remote Sensing; Geophysical Research Letters; Remote Sensing; Journal of Geophysical Research: Machine Learning and Computation.
 
-        [Download my CV](/uploads/CV_JaeseLee_2026.docx) for projects, patents, awards, and conference presentations.
+        [Download my CV](/uploads/CV_JaeseLee_2026.pdf) for projects, patents, awards, and conference presentations.
     design:
       columns: '1'
 ---
