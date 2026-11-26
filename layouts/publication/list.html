@@ -1,0 +1,11 @@
+{{ define "main" }}
+<section class="container mx-auto px-6 py-12" style="max-width: 64rem">
+  <h1 class="text-4xl font-bold mb-8">{{ .Title }}</h1>
+  {{ .Content }}
+  <ol style="list-style: decimal outside; padding-inline-start: 2rem; overflow-wrap: anywhere">
+    {{ range .Pages.ByDate.Reverse }}
+      <li>{{ partial "views/citation.html" (dict "item" .) }}</li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}
