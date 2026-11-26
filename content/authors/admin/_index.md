@@ -41,10 +41,7 @@ work:
     company_url: https://www.gist.ac.kr/
     date_start: 2025-09-01
     date_end: ''
-    summary: |
-      Participating in the InnoCORE program.
-
-      Advised by Prof. Hyunglok Kim.
+    summary: InnoCORE program · Advised by Prof. Hyunglok Kim
 languages:
   - name: Korean
     percent: 100
