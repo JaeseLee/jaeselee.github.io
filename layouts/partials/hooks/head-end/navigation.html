@@ -1,0 +1,21 @@
+<style>
+  #nav-menu a.nav-link {
+    white-space: nowrap;
+  }
+
+  @media (max-width: 1023px) {
+    #nav-toggle:checked ~ #nav-menu {
+      max-height: calc(100vh - 5rem);
+      max-height: calc(100dvh - 5rem);
+      overflow-y: auto;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #nav-menu {
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 100%;
+    }
+  }
+</style>
