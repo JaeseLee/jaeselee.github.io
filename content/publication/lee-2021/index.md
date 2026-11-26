@@ -39,4 +39,7 @@ tags:
 - K-means clustering
 - PCA
 - SAR
+volume: "37"
+issue: "5-3"
+pages: "1373–1387"
 ---

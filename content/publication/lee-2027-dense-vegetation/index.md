@@ -16,6 +16,8 @@ publication: "*Remote Sensing of Environment*"
 featured: false
 doi: 10.1016/j.rse.2026.115787
 url_dataset: https://doi.org/10.5281/zenodo.24359287
+volume: "349"
+article_number: "115787"
 ---
 
 

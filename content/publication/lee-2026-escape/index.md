@@ -20,6 +20,9 @@ author_notes:
   - ""
   - ""
   - ""
+volume: "147"
+article_number: "105206"
+doi: "10.1016/j.jag.2026.105206"
 ---
 
 

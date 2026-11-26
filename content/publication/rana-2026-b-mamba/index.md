@@ -13,4 +13,6 @@ publication_types:
   - article-journal
 publication: "*IEEE Transactions on Geoscience and Remote Sensing*"
 featured: false
+doi: "10.1109/TGRS.2026.3746053"
+advance_online: "true"
 ---

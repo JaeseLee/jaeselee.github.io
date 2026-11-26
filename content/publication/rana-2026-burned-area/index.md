@@ -1,5 +1,5 @@
 ---
-title: "Exploring the impacts of dual-polarized vegetation indices and deep learning architectures on SAR-based burned area mapping"
+title: "Exploring the impacts of dual-polarized vegetation indices and U-shaped deep learning architectures on SAR-based burned area mapping"
 authors:
   - "Rana, S."
   - "admin"
@@ -11,4 +11,7 @@ publication_types:
   - article-journal
 publication: "*International Journal of Applied Earth Observation and Geoinformation*"
 featured: false
+volume: "146"
+article_number: "105141"
+doi: "10.1016/j.jag.2026.105141"
 ---

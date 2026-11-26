@@ -33,4 +33,7 @@ tags:
 - Drought prediction
 - Forecast lead time
 - Remote sensing
+volume: "37"
+issue: "4"
+pages: "815–831"
 ---

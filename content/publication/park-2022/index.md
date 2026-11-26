@@ -40,4 +40,7 @@ tags:
 - agricultural drought
 - meteorological drought
 - satellite-based drought indices
+volume: "14"
+issue: "23"
+article_number: "6161"
 ---

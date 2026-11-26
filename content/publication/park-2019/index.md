@@ -36,4 +36,7 @@ tags:
 - drought index
 - one-class SVM
 - soil moisture downscaling
+volume: "35"
+issue: "6-3"
+pages: "1285–1298"
 ---

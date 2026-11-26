@@ -32,4 +32,7 @@ tags:
 - PROSAIL
 - Sentinel-2
 - random forest
+volume: "37"
+issue: "6-1"
+pages: "1719–1729"
 ---

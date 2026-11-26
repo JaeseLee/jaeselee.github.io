@@ -49,4 +49,7 @@ tags:
 - wildfire
 - wildfire-damaged area
 - 울산과학기술원 도시환경공학과 석박통합과정생
+volume: "36"
+issue: "5-3"
+pages: "1109–1123"
 ---

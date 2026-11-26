@@ -13,4 +13,7 @@ publication_types:
   - article-journal
 publication: "*Marine Pollution Bulletin*"
 featured: false
+volume: "221"
+article_number: "118462"
+doi: "10.1016/j.marpolbul.2025.118462"
 ---

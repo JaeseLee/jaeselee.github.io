@@ -1,12 +1,13 @@
 ---
-title: "Spatio-temporally continuious woody-to-total-area (α) estimation over deciduous forests using time-series gap-fraction and multi-spectral satellite observations"
+title: Retrieving woody components from time-series gap-fraction and multispectral satellite observations over deciduous forests
 authors:
   - "Kim, W."
-  - "admin"
+  - admin
   - "Kang, Y."
-  - "Lee, J."
   - "Im, J."
-date: '2025-01-01'
+  - "Son, B."
+  - "Lee, J."
+date: '2026-01-01'
 publishDate: '2026-11-26'
 publication_types:
   - article-journal
@@ -18,4 +19,9 @@ author_notes:
   - ""
   - ""
   - ""
+  - ""
+volume: "18"
+issue: "1"
+article_number: "10"
+doi: "10.3390/rs18010010"
 ---

@@ -10,4 +10,7 @@ publication_types:
   - article-journal
 publication: "*Remote Sensing of Environment*"
 featured: false
+volume: "333"
+article_number: "115136"
+doi: "10.1016/j.rse.2025.115136"
 ---

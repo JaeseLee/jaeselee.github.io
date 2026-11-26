@@ -40,6 +40,8 @@ links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/10741325/
 url_dataset: https://doi.org/10.5281/zenodo.13309164
+volume: "62"
+article_number: "4513119"
 ---
 
 
