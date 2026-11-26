@@ -2,56 +2,116 @@
   "projects": [
     {
       "title": "HDCA",
-      "category": "Soil moisture under dense vegetation",
-      "description": "Joint retrieval of soil moisture, vegetation optical depth, and time-varying effective scattering albedo from SMAP, accounting for first-order vegetation scattering.",
+      "category": "Physics-informed retrieval",
       "image": "hdca.webp",
       "alt": "HDCA and other SMAP retrievals compared with in situ soil moisture at Millbrook, Massachusetts, and Tambopata.",
       "paper": "/publication/lee-2027-dense-vegetation/",
-      "credit": "Lee et al. (2027), Fig. 7 \u00b7 Remote Sensing of Environment",
-      "doi": "10.1016/j.rse.2026.115787"
+      "credit": "Lee et al. (2027), Fig. 7 · Remote Sensing of Environment",
+      "doi": "10.1016/j.rse.2026.115787",
+      "sensor": "SMAP · L-band radiometry",
+      "journal": "Remote Sensing of Environment · 2027",
+      "summary": [
+        {
+          "label": "Problem",
+          "text": "Dense vegetation complicates soil moisture retrieval when vegetation scattering is assumed constant."
+        },
+        {
+          "label": "Method",
+          "text": "HDCA jointly retrieves soil moisture, vegetation optical depth, and time-varying scattering albedo using a physical constraint."
+        },
+        {
+          "label": "Finding",
+          "text": "Soil moisture bias was 0.008–0.025 m³/m³ at three evaluated temperate and Amazon forest sites."
+        }
+      ]
     },
     {
       "title": "ASCAT2SMAP-V2",
-      "category": "Satellite data harmonization",
-      "description": "Reconstructing L-band-like soil moisture and vegetation optical depth from C-band ASCAT observations.",
+      "category": "Cross-sensor harmonization",
       "image": "ascat2smap-v2.webp",
       "alt": "ASCAT2SMAP-V2 workflow linking ASCAT soil moisture, simulated brightness temperatures, and joint soil moisture and VOD retrieval.",
       "paper": "/publication/lee-2026-ascat2smap-v2/",
-      "credit": "Lee et al. (2026), Fig. 2 \u00b7 IEEE JSTARS",
+      "credit": "Lee et al. (2026), Fig. 2 · IEEE JSTARS",
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "doi": "10.1109/JSTARS.2026.3722611"
+      "doi": "10.1109/JSTARS.2026.3722611",
+      "sensor": "ASCAT · C-band scatterometry",
+      "journal": "IEEE JSTARS · 2026",
+      "summary": [
+        {
+          "label": "Problem",
+          "text": "Short satellite L-band records limit long-term monitoring of soil moisture and vegetation optical depth."
+        },
+        {
+          "label": "Method",
+          "text": "ASCAT2SMAP-V2 translates ASCAT soil moisture, simulates L-band brightness temperatures, and retrieves soil moisture and vegetation optical depth."
+        },
+        {
+          "label": "Finding",
+          "text": "Retrievals reproduce SMAP-like variability, while updated model parameters reduce soil moisture bias under vegetation."
+        }
+      ]
     },
     {
       "title": "ASTRA",
-      "category": "AMSR2 to SMAP",
-      "description": "Using image-to-image translation to produce SMAP-consistent soil moisture, with radiative transfer modeling for interpretation.",
+      "category": "Cross-sensor harmonization",
       "image": "astra.webp",
       "alt": "ASTRA workflow showing Swin-Unet translation and radiative transfer model inversion.",
       "paper": "/publication/lee-2026-astra/",
-      "credit": "Lee et al. (2026), Fig. 2 \u00b7 IJAEOG",
+      "credit": "Lee et al. (2026), Fig. 2 · IJAEOG",
       "license": "CC BY-NC 4.0",
       "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "doi": "10.1016/j.jag.2026.105297"
+      "doi": "10.1016/j.jag.2026.105297",
+      "sensor": "AMSR2 · Microwave radiometry",
+      "journal": "IJAEOG · 2026",
+      "summary": [
+        {
+          "label": "Problem",
+          "text": "Vegetation attenuation and fixed retrieval parameters create systematic differences between AMSR2 and SMAP soil moisture."
+        },
+        {
+          "label": "Method",
+          "text": "ASTRA uses Swin-Unet translation for SMAP-consistent estimates and radiative transfer inversion to interpret retrieved parameters."
+        },
+        {
+          "label": "Finding",
+          "text": "Test-period agreement with SMAP reached R = 0.814 and ubRMSD = 0.027 m³/m³; in situ validation also improved over AMSR2."
+        }
+      ]
     },
     {
       "title": "ESCAPE",
       "category": "Physics-informed retrieval",
-      "description": "Combining an ensemble of self-calibrated autoencoders with scattering models to estimate soil moisture and surface roughness from polarimetric SAR.",
       "image": "escape.webp",
       "alt": "ESCAPE autoencoder architecture with reconstruction and physics losses for soil moisture and surface roughness estimation.",
       "paper": "/publication/lee-2026-escape/",
-      "credit": "Lee et al. (2026), Fig. 2 \u00b7 IJAEOG",
+      "credit": "Lee et al. (2026), Fig. 2 · IJAEOG",
       "license": "CC BY-NC-ND 4.0",
       "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-      "doi": "10.1016/j.jag.2026.105206"
+      "doi": "10.1016/j.jag.2026.105206",
+      "sensor": "ALOS-2/PALSAR-2 · L-band SAR",
+      "journal": "IJAEOG · 2026",
+      "summary": [
+        {
+          "label": "Problem",
+          "text": "Separating soil moisture, surface roughness, and vegetation effects from SAR observations creates an underconstrained retrieval problem."
+        },
+        {
+          "label": "Method",
+          "text": "ESCAPE combines ten physics-informed autoencoders to retrieve soil moisture and roughness without in situ soil moisture training targets."
+        },
+        {
+          "label": "Finding",
+          "text": "Spatial validation in Spain and Austria achieved R = 0.701 and ubRMSD = 0.089 m³/m³; ensembles improved retrieval robustness."
+        }
+      ]
     }
   ],
   "datasets": [
     {
       "title": "HDCA",
       "tag": "Soil moisture, VOD + scattering",
-      "description": "Daily global 36 km retrievals from SMAP L-band observations, accounting for time-varying vegetation scattering. Includes soil moisture, vegetation optical depth, and effective scattering albedo for 2015\u20132025.",
+      "description": "Daily global 36 km retrievals from SMAP L-band observations, accounting for time-varying vegetation scattering. Includes soil moisture, vegetation optical depth, and effective scattering albedo for 2015–2025.",
       "doi": "10.5281/zenodo.24359287",
       "paper": "/publication/lee-2027-dense-vegetation/",
       "format": "Annual NetCDF files",
@@ -69,7 +129,7 @@
     {
       "title": "ASTRA",
       "tag": "Global daily soil moisture",
-      "description": "Daily 36 km soil moisture on the SMAP EASE-Grid 2.0 grid, covering July 2012\u2013December 2023. Includes median scattering albedo and surface roughness layers.",
+      "description": "Daily 36 km soil moisture on the SMAP EASE-Grid 2.0 grid, covering July 2012–December 2023. Includes median scattering albedo and surface roughness layers.",
       "doi": "10.5281/zenodo.18932359",
       "paper": "/publication/lee-2026-astra/",
       "format": "Annual NetCDF files"
