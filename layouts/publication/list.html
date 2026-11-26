@@ -2,6 +2,7 @@
 <section class="container mx-auto px-6 py-12" style="max-width: 64rem">
   <h1 class="text-4xl font-bold mb-8">{{ .Title }}</h1>
   {{ .Content }}
+  <p class="mb-6">† Co-first authors (equal contribution)</p>
   <ol style="list-style: decimal outside; padding-inline-start: 2rem; overflow-wrap: anywhere">
     {{ $papers := sort .Pages "Params.first_published" "desc" }}
     {{ $leadPapers := slice }}
